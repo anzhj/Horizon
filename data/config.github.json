@@ -1,16 +1,15 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "deepseek",
-    "model": "deepseek-v4-flash",
-    "base_url": "https://api.deepseek.com",
+    "provider": "OPENAI_API_KEY",
+    "model": "meta/llama-3.3-70b-instruct",
+    "base_url": "OPENAI_BASE_URL",
     "api_key_env": "DEEPSEEK_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
     "throttle_sec": 1,
     "languages": [
-      "zh",
-      "en"
+      "zh"
     ],
     "analysis_concurrency": 5,
     "enrichment_concurrency": 5
